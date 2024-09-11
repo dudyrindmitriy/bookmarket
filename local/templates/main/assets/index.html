@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMart</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/2c6a275cfe.js" crossorigin="anonymous"></script>
+    <script src="scripts.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="header__container">
+                <a href="#">
+                    <div class="logo"><img src="images/Logo big.png" alt="Логотип BookMart"></div>
+                    <div class="logo__small"><img src="images/Logo.png" alt="Логотип BookMart"></div>
+                </a>
+                <div class="header__search">
+                    <input type="text" placeholder="Название книги или автор" aria-label="Поиск книги или автора">
+                    <button>Найти</button>
+                </div>
+                <div class="header__user-menu">
+                    <a href="#" aria-label="Профиль пользователя"><img src="images/Avatar.png"
+                            alt="Аватар пользователя"></a>
+                    <a href="#" aria-label="Избранное"><img src="images/Icon mark.svg" alt="Избранное"></a>
+                    <a href="#" aria-label="Уведомления"><img src="images/Icon bell.svg" alt="Уведомления"></a>
+                    <a href="#" aria-label="Корзина"><img src="images/Icon cart.svg" alt="Корзина"></a>
+                    <div id="menu"><i class="fa-solid fa-bars"></i></div>
+
+                </div>
+            </div>
+            <hr>
+
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Новинки</a></li>
+                <li><a href="#">Бестселлеры</a></li>
+                <li><a href="#">Подборки</a></li>
+                <li><a href="#">Высокий рейтинг</a></li>
+                <li><a href="#">Иностранные</a></li>
+                <li><a href="#">Доставка и оплата</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+    <main>
+
+        <div class="main">
+            <div class="large__container">
+                <button class="prev" id="newsPrev"><img src="images/Mark L.svg" alt="Предыдущее"></button>
+
+                <div class="container">
+                    <h1>НОВИНКИ</h1>
+                    <ul class="news">
+                        <li><img src="images/image 168.png" alt="Картинка">
+                            <button class="news__save"><img src="images/Icon mark.svg" alt="Избранное"></button>
+                            <p>Странные игры</p>
+                            <p class="extra-text">Майк Омер</p>
+                        </li>
+                        <li><img src="images/image 168.png" alt="Картинка">
+                            <button class="news__save"><img src="images/Icon mark.svg" alt="Избранное"></button>
+                            <p>1Странные игры</p>
+                            <p class="extra-text">Майк Омер</p>
+                        </li>
+                        <li><img src="images/image 168.png" alt="Картинка">
+                            <button class="news__save"><img src="images/Icon mark.svg" alt="Избранное"></button>
+                            <p>2Странные игры</p>
+                            <p class="extra-text">Майк Омер</p>
+                        </li>
+                        <li><img src="images/image 168.png" alt="Картинка">
+                            <button class="news__save"><img src="images/Icon mark.svg" alt="Избранное"></button>
+                            <p>3Странные игры</p>
+                            <p class="extra-text">Майк Омер</p>
+                        </li>
+                        <li><img src="images/image 168.png" alt="Картинка">
+                            <button class="news__save"><img src="images/Icon mark.svg" alt="Избранное"></button>
+                            <p>4Странные игры</p>
+                            <p class="extra-text">Майк Омер</p>
+                        </li>
+                        <li><img src="images/image 168.png" alt="Картинка">
+                            <button class="news__save"><img src="images/Icon mark.svg" alt="Избранное"></button>
+                            <p>5Странные игры</p>
+                            <p class="extra-text">Майк Омер</p>
+                        </li>
+                        <li><img src="images/image 168.png" alt="Картинка">
+                            <button class="news__save"><img src="images/Icon mark.svg" alt="Избранное"></button>
+                            <p>Странные игры</p>
+                            <p class="extra-text">Майк Омер</p>
+                        </li>
+                    </ul>
+
+                </div>
+                <button class="next" id="newsNext"><img src="images/Mark R.svg" alt="Следующее"></button>
+            </div>
+            <div class="container">
+                <h1>КАТЕГОРИИ</h1>
+                <ul class="categories">
+                    <li><img src="images/IMG_8099.png" alt="Картинка">
+                        <p class="blue-text"> Современная проза</p>
+                    </li>
+                    <li><img src="images/IMG_8099.png" alt="Картинка">
+                        <p class="blue-text"> Современная проза</p>
+                    </li>
+                    <li><img src="images/IMG_8099.png" alt="Картинка">
+                        <p class="blue-text"> Современная проза</p>
+                    </li>
+                    <li><img src="images/IMG_8099.png" alt="Картинка">
+                        <p class="blue-text"> Современная проза</p>
+                    </li>
+                    <li><img src="images/IMG_8099.png" alt="Картинка">
+                        <p class="blue-text"> Современная проза</p>
+                    </li>
+                    <li><img src="images/IMG_8099.png" alt="Картинка">
+                        <p class="blue-text"> Современная проза</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="large__container">
+                <button class="prev" id="popularPrev"><img src="images/Mark L.svg" alt="Предыдущее"></button>
+            <div class="container">
+                <h1>ПОПУЛЯРНЫЕ КНИГИ</h1>
+                
+                    <ul class="popular">
+                        <li><img src="images/image 168.png" alt="Картинка">
+                            <div class="description">
+                                <p class="blue-title">840₽</p>Современная проза<p class="extra-text">Майк Омер</p>
+                                <div class="buttons">
+                                    <button class="buy" aria-label="Купить">Купить</button>
+                                    <button class="save"><img src="images/Icon mark.svg" alt="Избранное"></button>
+                                </div>
+                            </div>
+                        </li>
+                        <li><img src="images/image 168.png" alt="Картинка">
+                            <div class="description">
+                                <p class="blue-title">840₽</p>Современная проза<p class="extra-text">Майк Омер</p>
+                                <div class="buttons">
+                                    <button class="buy" aria-label="Купить">Купить</button>
+                                    <button class="save"><img src="images/Icon mark.svg" alt="Избранное"></button>
+                                </div>
+                            </div>
+                        </li>
+                        <li><img src="images/image 168.png" alt="Картинка">
+                            <div class="description">
+                                <p class="blue-title">840₽</p>Современная проза<p class="extra-text">Майк Омер</p>
+                                <div class="buttons">
+                                    <button class="buy" aria-label="Купить">Купить</button>
+                                    <button class="save"><img src="images/Icon mark.svg" alt="Избранное"></button>
+                                </div>
+                            </div>
+                        </li>
+                        <li><img src="images/image 168.png" alt="Картинка">
+                            <div class="description">
+                                <p class="blue-title">840₽</p>Современная проза<p class="extra-text">Майк Омер</p>
+                                <div class="buttons">
+                                    <button class="buy" aria-label="Купить">Купить</button>
+                                    <button class="save"><img src="images/Icon mark.svg" alt="Избранное"></button>
+                                </div>
+                            </div>
+                        </li>
+                        <li><img src="images/image 168.png" alt="Картинка">
+                            <div class="description">
+                                <p class="blue-title">840₽</p>2Современная проза<p class="extra-text">Майк Омер</p>
+                                <div class="buttons">
+                                    <button class="buy" aria-label="Купить">Купить</button>
+                                    <button class="save"><img src="images/Icon mark.svg" alt="Избранное"></button>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                   
+            </div>
+            <button class="next" id="popularNext"><img src="images/Mark R.svg" alt="Следующее"></button>
+        </div>
+        </div>
+        <div class="large__container">
+            <div class="picture__left">
+                <img src="images/photo.png" alt="Фотография">
+            </div>
+
+            <div class="article">
+                <h2 class="blue-title">ПОГРУЗИТЕСЬ В МИР ЗНАНИЙ И ВДОХНОВЕНИЯ ВМЕСТЕ С БУКМАРТ</h2>
+                <p class="extra-text">У нас на сайте вы найдете широкий ассортимент литературы на любой вкус — от
+                    классики до новинок, от
+                    художественной прозы до научно-популярных изданий на любой вкус.<br><br>Наша команда тщательно
+                    отбирает каждую книгу, чтобы предложить вам только лучшее. Откройте для себя новые горизонты с
+                    каждой прочитанной страницей!</p>
+            </div>
+        </div>
+        <div class="container">
+            <h1>ПОЧЕМУ ВЫБИРАЮТ НАС?</h1>
+            <ul class="why">
+                <li><img src="images/Rectangle 35.png" alt="Картинка">
+                    <p class="blue-text">Быстрая доставка</p>
+                    <p class="extra-text">Доставим ваши любимые книги за 1-3 дня</p>
+                </li>
+                <li><img src="images/Rectangle 35.png" alt="Картинка">
+                    <p class="blue-text">Быстрая доставка</p>
+                    <p class="extra-text">Доставим ваши любимые книги за 1-3 дня</p>
+                </li>
+                <li><img src="images/Rectangle 35.png" alt="Картинка">
+                    <p class="blue-text">Быстрая доставка</p>
+                    <p class="extra-text">Доставим ваши любимые книги за 1-3 дня</p>
+                </li>
+                <li><img src="images/Rectangle 35.png" alt="Картинка">
+                    <p class="blue-text">Быстрая доставка</p>
+                    <p class="extra-text">Доставим ваши любимые книги за 1-3 дня</p>
+                </li>
+            </ul>
+        </div>
+
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer__container">
+                <a href="#">
+                    <div class="logo"><img src="images/Logo big.png" alt="Логотип BookMart"></div>
+                    <div class="logo__small"><img src="images/Logo.png" alt="Логотип BookMart"></div>
+                </a>
+                <ul class="footer__list">
+                    <li><a href="#">
+                            <p class="blue-text">Каталог</p>
+                        </a></li>
+                    <li><a href="#">
+                            <p class="blue-text">Мои заказы</p>
+                        </a></li>
+                    <li><a href="#">
+                            <p class="blue-text">Помощь</p>
+                        </a></li>
+                </ul>
+                <ul class="footer__list">
+                    <li><a href="#">
+                            <p class="blue-text">Скачай приложение</p>
+                        </a></li>
+                    <li>
+                        <img src="images/qr.svg" alt="QR">
+                    </li>
+                    <li><a href="#">
+                        </a></li>
+                </ul>
+                <ul class="footer__list">
+                    <li><a href="#">
+                            <p class="blue-text">+7 (916) 999 99 99</p>
+                        </a></li>
+                    <li><a href="#">
+                            <p class="blue-text">info@bookmart.com</p>
+                        </a></li>
+
+                </ul>
+            </div>
+            <hr>
+            <div class="container">
+                <div class="footer__bottom">
+                    <p class="blue-text extra-text">©bookmart 2024</p>
+                    <a href="#" class="blue-text extra-text">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
